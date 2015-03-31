@@ -1,0 +1,45 @@
+{
+  "name": "longest-value",
+  "description": "Get the longest value for the given property from an array of objects. Useful for aligning values.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/longest-value",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/longest-value.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/longest-value/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/jonschlinkert/longest-value/blob/master/LICENSE"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "longest": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "keywords": [
+    "array",
+    "length",
+    "longest",
+    "object",
+    "value"
+  ]
+}
