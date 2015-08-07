@@ -1,23 +1,14 @@
 {
   "name": "longest-value",
-  "description": "Get the longest value for the given property from an array of objects. Useful for aligning values.",
-  "version": "0.1.0",
+  "description": "Get the longest value for the given property from an array of objects, or the longest value in an object. Useful for aligning values for text tables, CLI help, etc.",
+  "version": "0.2.0",
   "homepage": "https://github.com/jonschlinkert/longest-value",
-  "author": {
-    "name": "Jon Schlinkert",
-    "url": "https://github.com/jonschlinkert"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/jonschlinkert/longest-value.git"
-  },
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/longest-value",
   "bugs": {
     "url": "https://github.com/jonschlinkert/longest-value/issues"
   },
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/jonschlinkert/longest-value/blob/master/LICENSE"
-  },
+  "license": "MIT",
   "files": [
     "index.js"
   ],
@@ -37,9 +28,27 @@
   },
   "keywords": [
     "array",
+    "cli",
+    "command",
+    "command-line",
+    "console",
+    "interface",
     "length",
+    "line",
     "longest",
     "object",
+    "table",
+    "terminal",
+    "val",
     "value"
-  ]
+  ],
+  "verb": {
+    "related": {
+      "list": [
+        "longest",
+        "rename-keys",
+        "sort-object"
+      ]
+    }
+  }
 }
